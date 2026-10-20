@@ -82,15 +82,3 @@ Add a tie-breaker. A unique column such as the primary key makes the ordering de
 - Forgetting that `LIMIT` is a maximum, not a guarantee.
 - Assuming `LIMIT` automatically includes everyone tied at the cutoff.
 
-## Quick recall — before an interview
-
-Ask myself:
-
-1. Which rows qualify?
-2. What should be sorted first?
-3. Which direction?
-4. What breaks ties?
-5. How many rows should I return?
-6. How many rows should I skip?
-
-If I can answer those six questions, I can build most basic sorting and pagination queries.
